@@ -6,7 +6,7 @@ end
 
 class Dog
   def initialize(name, breed)
-    @dogName = name
+    @name = name
     if breed == "" || nil
       @breed = "mutt"
     else
