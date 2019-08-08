@@ -7,7 +7,8 @@ end
 class Dog
   def initialize(name, breed)
     @dogName = name
-    if breed == nil
+    if breed == nil || "" do
+    end
   end
 end
   
