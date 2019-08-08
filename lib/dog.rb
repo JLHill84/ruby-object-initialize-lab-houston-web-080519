@@ -3,3 +3,11 @@ class Person
     @name = name
   end
 end
+
+class Dog
+  def initialize(name, breed)
+    @dogName = name
+    if breed == nil
+  end
+end
+  
