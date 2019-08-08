@@ -5,9 +5,9 @@ class Person
 end
 
 class Dog
-  def initialize(name, breed)
+  def initialize(name, breed = "Mutt")
     @name = name
-    @breed = "mutt" if breed.nil? || breed.empty? else @breed = breed
+    @breed = breed
     # if breed == nil
     #   @breed = "mutt"
     # else
